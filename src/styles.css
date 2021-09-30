@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #83c5be;
+}
+
+.btn-container {
+  background-color: #006d77;
+  width: 500px;
+}
+
+.btn {
+  margin-right: 10px;
+  padding: 10px 10px;
+  width: 100px;
+  margin: 10px;
+  font-size: medium;
+  box-sizing: border-box;
+  border: 2px solid #ffddd2;
+  font-weight: 700;
+  color: #006d77;
+  background-color: #ffddd2;
+}
+
+.btn-container :last-child {
+  margin-right: 0px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 5rem;
+  color: #001219;
+}
